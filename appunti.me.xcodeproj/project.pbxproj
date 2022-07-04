@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051F60E928736DC5008FFE81 /* appunti_meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60E828736DC5008FFE81 /* appunti_meApp.swift */; };
+		051F60EB28736DC5008FFE81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60EA28736DC5008FFE81 /* ContentView.swift */; };
+		051F60ED28736DC7008FFE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051F60EC28736DC7008FFE81 /* Assets.xcassets */; };
+		051F60F028736DC7008FFE81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051F60EF28736DC7008FFE81 /* Preview Assets.xcassets */; };
+		051F60FA28736DC7008FFE81 /* appunti_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60F928736DC7008FFE81 /* appunti_meTests.swift */; };
+		051F610428736DC7008FFE81 /* appunti_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F610328736DC7008FFE81 /* appunti_meUITests.swift */; };
+		051F610628736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F610528736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051F60F628736DC7008FFE81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051F60DD28736DC5008FFE81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051F60E428736DC5008FFE81;
+			remoteInfo = appunti.me;
+		};
+		051F610028736DC7008FFE81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051F60DD28736DC5008FFE81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051F60E428736DC5008FFE81;
+			remoteInfo = appunti.me;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051F60E528736DC5008FFE81 /* appunti.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appunti.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051F60E828736DC5008FFE81 /* appunti_meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meApp.swift; sourceTree = "<group>"; };
+		051F60EA28736DC5008FFE81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		051F60EC28736DC7008FFE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051F60EF28736DC7008FFE81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		051F60F528736DC7008FFE81 /* appunti.meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appunti.meTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051F60F928736DC7008FFE81 /* appunti_meTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meTests.swift; sourceTree = "<group>"; };
+		051F60FF28736DC7008FFE81 /* appunti.meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appunti.meUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051F610328736DC7008FFE81 /* appunti_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meUITests.swift; sourceTree = "<group>"; };
+		051F610528736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051F60E228736DC5008FFE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051F60F228736DC7008FFE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051F60FC28736DC7008FFE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051F60DC28736DC5008FFE81 = {
+			isa = PBXGroup;
+			children = (
+				051F60E728736DC5008FFE81 /* appunti.me */,
+				051F60F828736DC7008FFE81 /* appunti.meTests */,
+				051F610228736DC7008FFE81 /* appunti.meUITests */,
+				051F60E628736DC5008FFE81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051F60E628736DC5008FFE81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051F60E528736DC5008FFE81 /* appunti.me.app */,
+				051F60F528736DC7008FFE81 /* appunti.meTests.xctest */,
+				051F60FF28736DC7008FFE81 /* appunti.meUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051F60E728736DC5008FFE81 /* appunti.me */ = {
+			isa = PBXGroup;
+			children = (
+				051F60E828736DC5008FFE81 /* appunti_meApp.swift */,
+				051F60EA28736DC5008FFE81 /* ContentView.swift */,
+				051F60EC28736DC7008FFE81 /* Assets.xcassets */,
+				051F60EE28736DC7008FFE81 /* Preview Content */,
+			);
+			path = appunti.me;
+			sourceTree = "<group>";
+		};
+		051F60EE28736DC7008FFE81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				051F60EF28736DC7008FFE81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		051F60F828736DC7008FFE81 /* appunti.meTests */ = {
+			isa = PBXGroup;
+			children = (
+				051F60F928736DC7008FFE81 /* appunti_meTests.swift */,
+			);
+			path = appunti.meTests;
+			sourceTree = "<group>";
+		};
+		051F610228736DC7008FFE81 /* appunti.meUITests */ = {
+			isa = PBXGroup;
+			children = (
+				051F610328736DC7008FFE81 /* appunti_meUITests.swift */,
+				051F610528736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift */,
+			);
+			path = appunti.meUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051F60E428736DC5008FFE81 /* appunti.me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051F610928736DC7008FFE81 /* Build configuration list for PBXNativeTarget "appunti.me" */;
+			buildPhases = (
+				051F60E128736DC5008FFE81 /* Sources */,
+				051F60E228736DC5008FFE81 /* Frameworks */,
+				051F60E328736DC5008FFE81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appunti.me;
+			productName = appunti.me;
+			productReference = 051F60E528736DC5008FFE81 /* appunti.me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051F60F428736DC7008FFE81 /* appunti.meTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051F610C28736DC7008FFE81 /* Build configuration list for PBXNativeTarget "appunti.meTests" */;
+			buildPhases = (
+				051F60F128736DC7008FFE81 /* Sources */,
+				051F60F228736DC7008FFE81 /* Frameworks */,
+				051F60F328736DC7008FFE81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051F60F728736DC7008FFE81 /* PBXTargetDependency */,
+			);
+			name = appunti.meTests;
+			productName = appunti.meTests;
+			productReference = 051F60F528736DC7008FFE81 /* appunti.meTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		051F60FE28736DC7008FFE81 /* appunti.meUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051F610F28736DC7008FFE81 /* Build configuration list for PBXNativeTarget "appunti.meUITests" */;
+			buildPhases = (
+				051F60FB28736DC7008FFE81 /* Sources */,
+				051F60FC28736DC7008FFE81 /* Frameworks */,
+				051F60FD28736DC7008FFE81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051F610128736DC7008FFE81 /* PBXTargetDependency */,
+			);
+			name = appunti.meUITests;
+			productName = appunti.meUITests;
+			productReference = 051F60FF28736DC7008FFE81 /* appunti.meUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051F60DD28736DC5008FFE81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					051F60E428736DC5008FFE81 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					051F60F428736DC7008FFE81 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 051F60E428736DC5008FFE81;
+					};
+					051F60FE28736DC7008FFE81 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 051F60E428736DC5008FFE81;
+					};
+				};
+			};
+			buildConfigurationList = 051F60E028736DC5008FFE81 /* Build configuration list for PBXProject "appunti.me" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051F60DC28736DC5008FFE81;
+			productRefGroup = 051F60E628736DC5008FFE81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051F60E428736DC5008FFE81 /* appunti.me */,
+				051F60F428736DC7008FFE81 /* appunti.meTests */,
+				051F60FE28736DC7008FFE81 /* appunti.meUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051F60E328736DC5008FFE81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051F60F028736DC7008FFE81 /* Preview Assets.xcassets in Resources */,
+				051F60ED28736DC7008FFE81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051F60F328736DC7008FFE81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051F60FD28736DC7008FFE81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051F60E128736DC5008FFE81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051F60EB28736DC5008FFE81 /* ContentView.swift in Sources */,
+				051F60E928736DC5008FFE81 /* appunti_meApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051F60F128736DC7008FFE81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051F60FA28736DC7008FFE81 /* appunti_meTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051F60FB28736DC7008FFE81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051F610628736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift in Sources */,
+				051F610428736DC7008FFE81 /* appunti_meUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051F60F728736DC7008FFE81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051F60E428736DC5008FFE81 /* appunti.me */;
+			targetProxy = 051F60F628736DC7008FFE81 /* PBXContainerItemProxy */;
+		};
+		051F610128736DC7008FFE81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051F60E428736DC5008FFE81 /* appunti.me */;
+			targetProxy = 051F610028736DC7008FFE81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		051F610728736DC7008FFE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		051F610828736DC7008FFE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051F610A28736DC7008FFE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appunti.me/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.macca.appunti-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051F610B28736DC7008FFE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appunti.me/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.macca.appunti-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		051F610D28736DC7008FFE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.macca.appunti-meTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appunti.me.app/appunti.me";
+			};
+			name = Debug;
+		};
+		051F610E28736DC7008FFE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.macca.appunti-meTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appunti.me.app/appunti.me";
+			};
+			name = Release;
+		};
+		051F611028736DC7008FFE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.macca.appunti-meUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appunti.me;
+			};
+			name = Debug;
+		};
+		051F611128736DC7008FFE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.macca.appunti-meUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appunti.me;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051F60E028736DC5008FFE81 /* Build configuration list for PBXProject "appunti.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051F610728736DC7008FFE81 /* Debug */,
+				051F610828736DC7008FFE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051F610928736DC7008FFE81 /* Build configuration list for PBXNativeTarget "appunti.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051F610A28736DC7008FFE81 /* Debug */,
+				051F610B28736DC7008FFE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051F610C28736DC7008FFE81 /* Build configuration list for PBXNativeTarget "appunti.meTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051F610D28736DC7008FFE81 /* Debug */,
+				051F610E28736DC7008FFE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051F610F28736DC7008FFE81 /* Build configuration list for PBXNativeTarget "appunti.meUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051F611028736DC7008FFE81 /* Debug */,
+				051F611128736DC7008FFE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051F60DD28736DC5008FFE81 /* Project object */;
+}
