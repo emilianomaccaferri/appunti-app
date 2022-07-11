@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050EBEB2287B50B700AABAC1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050EBEB1287B50B700AABAC1 /* StringExtensions.swift */; };
+		050EBEB4287B518200AABAC1 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050EBEB3287B518200AABAC1 /* utils.swift */; };
 		051F60E928736DC5008FFE81 /* appunti_meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60E828736DC5008FFE81 /* appunti_meApp.swift */; };
 		051F60EB28736DC5008FFE81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60EA28736DC5008FFE81 /* ContentView.swift */; };
 		051F60ED28736DC7008FFE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051F60EC28736DC7008FFE81 /* Assets.xcassets */; };
@@ -14,6 +16,20 @@
 		051F60FA28736DC7008FFE81 /* appunti_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60F928736DC7008FFE81 /* appunti_meTests.swift */; };
 		051F610428736DC7008FFE81 /* appunti_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F610328736DC7008FFE81 /* appunti_meUITests.swift */; };
 		051F610628736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F610528736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift */; };
+		051F611628736F32008FFE81 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F611528736F32008FFE81 /* AuthView.swift */; };
+		051F611928737133008FFE81 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F611828737133008FFE81 /* TextInput.swift */; };
+		05640F1A287C81480083D4EE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05640F19287C81480083D4EE /* MainView.swift */; };
+		05640F1C287C83070083D4EE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05640F1B287C83070083D4EE /* Home.swift */; };
+		05640F1E287C872C0083D4EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05640F1D287C872C0083D4EE /* User.swift */; };
+		05640F21287C8B160083D4EE /* FetchUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05640F20287C8B160083D4EE /* FetchUserResponse.swift */; };
+		05640F23287C92840083D4EE /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05640F22287C92840083D4EE /* Block.swift */; };
+		0590FA6E287B085A002C52ED /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FA6D287B085A002C52ED /* constants.swift */; };
+		0590FA70287B16AC002C52ED /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FA6F287B16AC002C52ED /* Api.swift */; };
+		0590FA72287B1781002C52ED /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FA71287B1781002C52ED /* Auth.swift */; };
+		0590FA76287B1E95002C52ED /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FA75287B1E95002C52ED /* LoginResponse.swift */; };
+		0590FA79287B3055002C52ED /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FA78287B3055002C52ED /* Shake.swift */; };
+		0598CDAB287448F200875DA1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CDAA287448F200875DA1 /* RegisterView.swift */; };
+		0598CDAD287448F900875DA1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CDAC287448F900875DA1 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050EBEB1287B50B700AABAC1 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		050EBEB3287B518200AABAC1 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		051F60E528736DC5008FFE81 /* appunti.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appunti.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051F60E828736DC5008FFE81 /* appunti_meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meApp.swift; sourceTree = "<group>"; };
 		051F60EA28736DC5008FFE81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +62,20 @@
 		051F60FF28736DC7008FFE81 /* appunti.meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appunti.meUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		051F610328736DC7008FFE81 /* appunti_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meUITests.swift; sourceTree = "<group>"; };
 		051F610528736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		051F611528736F32008FFE81 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		051F611828737133008FFE81 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		05640F19287C81480083D4EE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		05640F1B287C83070083D4EE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		05640F1D287C872C0083D4EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		05640F20287C8B160083D4EE /* FetchUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserResponse.swift; sourceTree = "<group>"; };
+		05640F22287C92840083D4EE /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		0590FA6D287B085A002C52ED /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		0590FA6F287B16AC002C52ED /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		0590FA71287B1781002C52ED /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		0590FA75287B1E95002C52ED /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		0590FA78287B3055002C52ED /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		0598CDAA287448F200875DA1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0598CDAC287448F900875DA1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050EBEB0287B50AB00AABAC1 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				050EBEB1287B50B700AABAC1 /* StringExtensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		051F60DC28736DC5008FFE81 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +134,9 @@
 		051F60E728736DC5008FFE81 /* appunti.me */ = {
 			isa = PBXGroup;
 			children = (
+				0590FA61287B04B7002C52ED /* lib */,
+				051F611728737124008FFE81 /* components */,
+				051F611428736EDD008FFE81 /* views */,
 				051F60E828736DC5008FFE81 /* appunti_meApp.swift */,
 				051F60EA28736DC5008FFE81 /* ContentView.swift */,
 				051F60EC28736DC7008FFE81 /* Assets.xcassets */,
@@ -125,6 +168,83 @@
 				051F610528736DC7008FFE81 /* appunti_meUITestsLaunchTests.swift */,
 			);
 			path = appunti.meUITests;
+			sourceTree = "<group>";
+		};
+		051F611428736EDD008FFE81 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				05640F18287C813E0083D4EE /* main */,
+				051F611528736F32008FFE81 /* AuthView.swift */,
+				0598CDAA287448F200875DA1 /* RegisterView.swift */,
+				0598CDAC287448F900875DA1 /* LoginView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		051F611728737124008FFE81 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				0590FA77287B304C002C52ED /* anim */,
+				051F611828737133008FFE81 /* TextInput.swift */,
+				05640F22287C92840083D4EE /* Block.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		05640F18287C813E0083D4EE /* main */ = {
+			isa = PBXGroup;
+			children = (
+				05640F19287C81480083D4EE /* MainView.swift */,
+				05640F1B287C83070083D4EE /* Home.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		05640F1F287C8B0B0083D4EE /* http */ = {
+			isa = PBXGroup;
+			children = (
+				0590FA75287B1E95002C52ED /* LoginResponse.swift */,
+				05640F20287C8B160083D4EE /* FetchUserResponse.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		0590FA61287B04B7002C52ED /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				050EBEB0287B50AB00AABAC1 /* extensions */,
+				0590FA74287B1E77002C52ED /* models */,
+				0590FA62287B04BC002C52ED /* http */,
+				0590FA6D287B085A002C52ED /* constants.swift */,
+				050EBEB3287B518200AABAC1 /* utils.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0590FA62287B04BC002C52ED /* http */ = {
+			isa = PBXGroup;
+			children = (
+				0590FA6F287B16AC002C52ED /* Api.swift */,
+				0590FA71287B1781002C52ED /* Auth.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		0590FA74287B1E77002C52ED /* models */ = {
+			isa = PBXGroup;
+			children = (
+				05640F1F287C8B0B0083D4EE /* http */,
+				05640F1D287C872C0083D4EE /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0590FA77287B304C002C52ED /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				0590FA78287B3055002C52ED /* Shake.swift */,
+			);
+			path = anim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +377,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050EBEB2287B50B700AABAC1 /* StringExtensions.swift in Sources */,
+				05640F1A287C81480083D4EE /* MainView.swift in Sources */,
+				0598CDAD287448F900875DA1 /* LoginView.swift in Sources */,
 				051F60EB28736DC5008FFE81 /* ContentView.swift in Sources */,
+				05640F1E287C872C0083D4EE /* User.swift in Sources */,
+				0598CDAB287448F200875DA1 /* RegisterView.swift in Sources */,
+				0590FA79287B3055002C52ED /* Shake.swift in Sources */,
 				051F60E928736DC5008FFE81 /* appunti_meApp.swift in Sources */,
+				05640F1C287C83070083D4EE /* Home.swift in Sources */,
+				050EBEB4287B518200AABAC1 /* utils.swift in Sources */,
+				051F611628736F32008FFE81 /* AuthView.swift in Sources */,
+				0590FA76287B1E95002C52ED /* LoginResponse.swift in Sources */,
+				051F611928737133008FFE81 /* TextInput.swift in Sources */,
+				0590FA70287B16AC002C52ED /* Api.swift in Sources */,
+				0590FA6E287B085A002C52ED /* constants.swift in Sources */,
+				05640F23287C92840083D4EE /* Block.swift in Sources */,
+				0590FA72287B1781002C52ED /* Auth.swift in Sources */,
+				05640F21287C8B160083D4EE /* FetchUserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"appunti.me/Preview Content\"";
+				DEVELOPMENT_TEAM = V95T5V73A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"appunti.me/Preview Content\"";
+				DEVELOPMENT_TEAM = V95T5V73A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
