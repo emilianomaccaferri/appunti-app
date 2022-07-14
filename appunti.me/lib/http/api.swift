@@ -16,6 +16,7 @@ class Api: ObservableObject{
     }
     
     @Published var auth = Auth()
+    @Published var users = Users()
     @Published var logged_in: UserState = .checking
     @Published var user: User? = nil
     

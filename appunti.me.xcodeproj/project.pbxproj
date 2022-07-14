@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		050EBEB2287B50B700AABAC1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050EBEB1287B50B700AABAC1 /* StringExtensions.swift */; };
 		050EBEB4287B518200AABAC1 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050EBEB3287B518200AABAC1 /* utils.swift */; };
+		051AE8A928804FB900544AE8 /* SizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051AE8A828804FB900544AE8 /* SizeInfo.swift */; };
+		051AE8AB288052F600544AE8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051AE8AA288052F600544AE8 /* Users.swift */; };
 		051F60E928736DC5008FFE81 /* appunti_meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60E828736DC5008FFE81 /* appunti_meApp.swift */; };
 		051F60EB28736DC5008FFE81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F60EA28736DC5008FFE81 /* ContentView.swift */; };
 		051F60ED28736DC7008FFE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051F60EC28736DC7008FFE81 /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 /* Begin PBXFileReference section */
 		050EBEB1287B50B700AABAC1 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		050EBEB3287B518200AABAC1 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		051AE8A828804FB900544AE8 /* SizeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeInfo.swift; sourceTree = "<group>"; };
+		051AE8AA288052F600544AE8 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		051F60E528736DC5008FFE81 /* appunti.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appunti.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051F60E828736DC5008FFE81 /* appunti_meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appunti_meApp.swift; sourceTree = "<group>"; };
 		051F60EA28736DC5008FFE81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 			children = (
 				0590FA75287B1E95002C52ED /* LoginResponse.swift */,
 				05640F20287C8B160083D4EE /* FetchUserResponse.swift */,
+				051AE8A828804FB900544AE8 /* SizeInfo.swift */,
 			);
 			path = http;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			children = (
 				0590FA6F287B16AC002C52ED /* Api.swift */,
 				0590FA71287B1781002C52ED /* Auth.swift */,
+				051AE8AA288052F600544AE8 /* Users.swift */,
 			);
 			path = http;
 			sourceTree = "<group>";
@@ -381,6 +387,7 @@
 				05640F1A287C81480083D4EE /* MainView.swift in Sources */,
 				0598CDAD287448F900875DA1 /* LoginView.swift in Sources */,
 				051F60EB28736DC5008FFE81 /* ContentView.swift in Sources */,
+				051AE8A928804FB900544AE8 /* SizeInfo.swift in Sources */,
 				05640F1E287C872C0083D4EE /* User.swift in Sources */,
 				0598CDAB287448F200875DA1 /* RegisterView.swift in Sources */,
 				0590FA79287B3055002C52ED /* Shake.swift in Sources */,
@@ -388,6 +395,7 @@
 				05640F1C287C83070083D4EE /* Home.swift in Sources */,
 				050EBEB4287B518200AABAC1 /* utils.swift in Sources */,
 				051F611628736F32008FFE81 /* AuthView.swift in Sources */,
+				051AE8AB288052F600544AE8 /* Users.swift in Sources */,
 				0590FA76287B1E95002C52ED /* LoginResponse.swift in Sources */,
 				051F611928737133008FFE81 /* TextInput.swift in Sources */,
 				0590FA70287B16AC002C52ED /* Api.swift in Sources */,
